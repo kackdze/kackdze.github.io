@@ -193,6 +193,21 @@ body[b-6vbs59fk60] {
     text-decoration: underline;
 }
 
+.flag-container[b-6vbs59fk60] {
+    margin-left: 10px;
+}
+
+.flag-img[b-6vbs59fk60] {
+    width: 190px;
+    height: 100px;
+    box-shadow: 0 4px 12px rgba(150, 30, 30, 0.3);
+}
+    .flag-img:hover[b-6vbs59fk60] {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(150, 30, 30, 0.4);
+    }
+
+
 @keyframes slideIn-b-6vbs59fk60 {
     from {
         transform: translateY(30px);
@@ -215,7 +230,6 @@ body[b-6vbs59fk60] {
 }
 /* /Pages/Quotes.razor.rz.scp.css */
 .quote-carousel-container[b-r0yjjbi7vx] {
-    position: relative;
     display: flex;
     align-items: center;
     max-width: 1000px;
@@ -226,8 +240,6 @@ body[b-6vbs59fk60] {
 .quote-carousel[b-r0yjjbi7vx] {
     flex: 1;
     overflow: hidden;
-    position: relative;
-    height: 200px;
     border-radius: 12px;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -246,7 +258,6 @@ body[b-6vbs59fk60] {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    position: relative;
     transition: all 0.6s ease;
 }
 
@@ -284,9 +295,7 @@ body[b-6vbs59fk60] {
     background: #3498db;
     color: white;
     border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    border-radius: 12px;
     font-size: 1.5rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -294,8 +303,8 @@ body[b-6vbs59fk60] {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 60px;
 }
-
     .quote-nav-button:hover[b-r0yjjbi7vx] {
         background: #2980b9;
         transform: translateY(-2px);
@@ -305,6 +314,17 @@ body[b-6vbs59fk60] {
     .quote-nav-button:active[b-r0yjjbi7vx] {
         transform: translateY(0);
     }
+
+.quote-nav-button + .quote-nav-button[b-r0yjjbi7vx]{
+    margin-left: 20px;
+}
+
+.quote-nav-button-container[b-r0yjjbi7vx] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
 
 .quote-indicators[b-r0yjjbi7vx] {
     display: flex;
