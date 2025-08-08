@@ -2,6 +2,7 @@
 .page[b-fvx559o68a] {
     flex-direction: row;
     position: relative;
+    min-height: 100vh;
 }
 
 .sidebar[b-fvx559o68a] {
@@ -37,6 +38,8 @@ main[b-fvx559o68a] {
     }
 
 .bottom-row[b-fvx559o68a] {
+    position: absolute;
+    bottom: 0;
     background-color: #808080;
     border-top: 1px solid #d6d5d5;
     height: 1.5rem;
@@ -44,12 +47,10 @@ main[b-fvx559o68a] {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    position: fixed;
-    bottom: 0;
     width: 100vw;
-    overflow: hidden; 
-    white-space: nowrap; 
-    text-overflow: ellipsis; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .nav-menu[b-fvx559o68a] {
