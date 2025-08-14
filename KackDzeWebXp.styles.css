@@ -317,10 +317,15 @@ body[b-6vbs59fk60] {
     }
 
 .hero[b-6vbs59fk60] {
-    background: linear-gradient(to right, mediumaquamarine, #4C9E87);
+    background-image: url("imgs/ar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 256px;
     color: white;
     padding: 30px 10px;
     text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     border-radius: 8px;
 }
 
