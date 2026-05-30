@@ -164,7 +164,8 @@ Communist. Follow up with a pressure campaign: call their work to get them fired
 
 Pressure venues to cancel far-left events. Approach venues with a friendly call first, 
 as they may be unaware of the politics. If they don't cancel, use social media pressure, 
-threaten boycotts, and physically block entrances if necessary.
+threaten boycotts, and physically block entrances if necessary. Use megaphones or similar
+devices to cause permanent hearing damage/loss. 
 
 #### Self defense
 
